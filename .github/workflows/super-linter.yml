@@ -35,5 +35,6 @@ jobs:
           VALIDATE_JAVA: false
           VALIDATE_JAVA_CHECKSTYLE: false
           VALIDATE_JAVA_GOOGLE_CHECKS: false
+          VALIDATE_MARKDOWN: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
