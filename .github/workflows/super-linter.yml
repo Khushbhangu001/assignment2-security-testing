@@ -30,6 +30,10 @@ jobs:
           VALIDATE_PYTHON_ISORT: false
           VALIDATE_GITHUB_ACTIONS: false
           VALIDATE_TYPESCRIPT_ES: false
+          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_ESLINT: false
           VALIDATE_JAVA: false
+          VALIDATE_JAVA_CHECKSTYLE: false
+          VALIDATE_JAVA_GOOGLE_CHECKS: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
