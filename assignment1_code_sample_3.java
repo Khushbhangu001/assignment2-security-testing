@@ -6,7 +6,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.sql.*;
 import java.util.Scanner;
-
+// trigger codesweep scan
 public class VulnerableApp {
 
     private static final String DB_URL = "jdbc:mysql://mydatabase.com/mydb";
