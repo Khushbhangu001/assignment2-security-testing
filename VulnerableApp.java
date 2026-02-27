@@ -27,7 +27,7 @@ public class VulnerableApp {
             System.out.println("Error sending email: " + e.getMessage());
         }
     }
-    
+    // This method fetches data from an insecure API endpoint
     public static String getData() {
         StringBuilder result = new StringBuilder();
         try {
